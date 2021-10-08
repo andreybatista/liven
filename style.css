@@ -1,0 +1,377 @@
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.section-header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-header img {
+    width: 808px;
+}
+
+.section-header h2 {
+    color: #fff;
+}
+
+.section-bannerMapProdutos {
+    margin-top: 90px;
+    margin-bottom: 130px;
+}
+
+.tituloSection {
+    font-family: 'Mulish', sans-serif;
+    font-size: 70pt;
+    font-weight: 600;
+    color: #004750;
+    margin-bottom: 56px;
+}
+
+.veja-produtos .box-img {
+    cursor: pointer;
+    transition: 0.5s;
+    min-height: 207px;
+    margin-bottom: 32px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.veja-produtos .box-img .text {
+    transition: 0.5s;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.veja-produtos .box-img h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 28pt;
+    line-height: 35pt;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.veja-produtos .box-img span {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16pt;
+    line-height: 20pt;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.veja-produtos .box-img:hover .text {
+    transition: 0.5s;
+    width: 100%;
+}
+
+.veja-produtos .box-img .text h2,
+.veja-produtos .box-img .text a {
+    color: #fff;
+}
+
+.veja-produtos .maisProdutos {
+    margin: 0 20px;
+}
+
+.veja-produtos .maisProdutos p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+    line-height: 35pt;
+    color: #004750;
+}
+
+.btn-verMais {
+    background: #f1ede9;
+    padding: 10px 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 23pt;
+    line-height: 35pt;
+    color: #004750 !important;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.section-atributos {
+    background-color: #f1ede9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 111px;
+}
+
+.section-atributos .boxItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9e4777;
+    padding: 20px 10px;
+    text-align: center;
+    min-height: 347px;
+}
+
+.section-atributos .boxItem p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    line-height: 26pt;
+    color: #9e4777;
+    margin: 0;
+}
+
+.section-atributos .boxItem strong {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    line-height: 26pt;
+    color: #9e4777;
+}
+
+.sliderAtributos .slick-slide {
+    height: auto;
+    padding: 0 15px;
+}
+
+.sliderAtributos .slick-prev {
+    left: 22px;
+}
+
+.sliderAtributos .slick-next {
+    right: 22px;
+}
+
+.section-deca {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 15px 10px 0;
+}
+
+.section-deca .background {
+    background-color: rgba(241, 237, 233, 0.87);
+}
+
+.section-deca div.paddingTexto {
+    padding: 39px 46px 62px 141px;
+}
+
+.section-deca div.paddingFont {
+    padding: 5px 46px 5px 141px;
+}
+
+.section-deca div.paddingFont p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 17pt;
+    font-weight: 300;
+    line-height: 38pt;
+}
+
+.section-deca img.titulo {
+    margin-bottom: 15px;
+}
+
+.section-deca p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 24pt;
+    line-height: 38pt;
+    color: #004750;
+}
+
+.section-deca .img-sm {
+    display: none;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.caminho-pagina {
+    display: none;
+    padding: 10px 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 24pt;
+    color: #c4c4c4c4;
+}
+
+.box-sm {
+    display: none;
+}
+
+.box-lerMais {
+    border: 1px solid #c4c4c4c4;
+    padding: 20px 10px 25px 10px;
+}
+
+.box-lerMais p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    line-height: 24pt;
+    color: #004750;
+}
+
+.box-lerMais a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 21pt;
+    line-height: 31pt;
+    cursor: pointer;
+}
+
+.veja-produtos .maisProdutos {
+    margin: 0;
+}
+
+.section-sobreCategoria .box {
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.sliderCatalogo {
+    margin: 0 auto;
+    width: 76%;
+    position: relative;
+}
+
+.sliderCatalogo .slick-prev {
+    left: 15px;
+    z-index: 1;
+}
+
+.sliderCatalogo .slick-next {
+    right: 15px;
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+@media(max-width: 767px) {}
+
+.container-long {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container-long {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-long {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-long {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 991px) {
+    .veja-produtos .box-img {
+        min-height: 350px;
+    }
+    .section-deca {
+        background: none !important;
+        padding: 0 15px;
+    }
+    .section-deca .background {
+        background: none;
+    }
+    .section-deca .background.paddingFont {
+        display: none;
+    }
+    .section-deca .img-sm {
+        display: block !important;
+    }
+    .section-deca div.paddingTexto {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-header img {
+        width: 650;
+    }
+    .tituloSection {
+        font-size: 40pt;
+    }
+    .box-sm {
+        display: block !important;
+    }
+    .caminho-pagina {
+        display: block !important;
+    }
+    .section-bannerMapProdutos {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-long {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-long {
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 1880px) {
+    .tituloSection {
+        font-size: 60pt;
+    }
+}
+
+@media (max-width: 1609px) {
+    .tituloSection {
+        font-size: 51pt;
+    }
+}
+
+@media (max-width: 1372px) {
+    .tituloSection {
+        font-size: 44pt;
+    }
+}
+
+@media (max-width: 1188px) {
+    .tituloSection {
+        font-size: 38pt;
+    }
+}
+
+@media(max-width: 1030px) {
+    .tituloSection {
+        font-size: 36pt;
+    }
+    .sliderCatalogo {
+        width: 100%;
+    }
+}
