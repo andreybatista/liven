@@ -324,7 +324,21 @@ a:hover {
     background: #67cfe3;
 }
 
-@media(max-width: 767px) {}
+.maisProdutos {
+    transition: all 0.5s ease;
+}
+
+.box-produtos {
+    transition: all 0.5s ease;
+}
+
+.box-produtos:hover .maisProdutos {
+    opacity: 0.5;
+}
+
+.box-produtos:hover .maisProdutos:hover {
+    opacity: 1;
+}
 
 .container-long {
     width: 100%;
