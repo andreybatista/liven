@@ -152,10 +152,12 @@ a:hover {
 
 .sliderAtributos .slick-prev {
     left: 22px;
+    z-index: 1;
 }
 
 .sliderAtributos .slick-next {
     right: 22px;
+    z-index: 1;
 }
 
 .section-deca {
