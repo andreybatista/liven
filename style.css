@@ -371,8 +371,14 @@ a:hover {
 @media (max-width: 991px) {
     .slick-prev,
     .slick-next {
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 35px;
+    }
+    .slick-prev {
+        left: 30px !important;
+    }
+    .slick-next {
+        right: 30px !important;
     }
     .veja-produtos .box-img {
         min-height: 350px;
