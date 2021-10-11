@@ -32,6 +32,14 @@ a:hover {
     margin-bottom: 56px;
 }
 
+.subTituloSection {
+    font-family: 'Mulish', sans-serif;
+    font-size: 53pt;
+    font-weight: 600;
+    color: #004750;
+    margin-bottom: 56px;
+}
+
 .veja-produtos .box-img {
     cursor: pointer;
     transition: 0.5s;
@@ -424,6 +432,9 @@ a:hover {
 @media (max-width: 1188px) {
     .tituloSection {
         font-size: 38pt;
+    }
+    .subTituloSection {
+        font-size: 45pt;
     }
 }
 
