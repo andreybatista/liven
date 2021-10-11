@@ -123,10 +123,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #9e4777;
-    padding: 20px 10px;
     text-align: center;
-    min-height: 347px;
 }
 
 .section-atributos .boxItem p {
