@@ -368,6 +368,14 @@ a:hover {
     display: none !important;
 }
 
+.background-escolha {
+    background-color: #f1ede9;
+}
+
+.fundoPadrao {
+    background-color: #f1ede9;
+}
+
 @media (min-width: 576px) {
     .container-long {
         max-width: 100%;
@@ -387,6 +395,17 @@ a:hover {
 }
 
 @media (max-width: 991px) {
+    .container-fluid.background-escolha {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .background-escolha {
+        background-color: transparent;
+    }
+    .background-escolha .veja-produtos .col-lg-2.col-sm-4 {
+        background: #f1ede9;
+        margin-bottom: 25px;
+    }
     .slick-prev,
     .slick-next {
         width: 35px;
