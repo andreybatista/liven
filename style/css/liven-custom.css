@@ -1,0 +1,1225 @@
+﻿/*Daqui*/
+html {
+  scroll-behavior: smooth;
+}
+
+.section-header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-header img {
+  width: 808px;
+}
+
+.section-header h2 {
+  color: #fff;
+}
+
+.section-bannerMapProdutos {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.tituloSection {
+  font-family: 'Mulish', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #004750;
+  margin-bottom: 56px;
+}
+
+.subTituloSection {
+  font-family: 'Mulish', sans-serif;
+  color: #004750;
+  margin-bottom: 35px;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.veja-produtos .box-img {
+  cursor: pointer;
+  transition: 0.5s;
+  min-height: 207px;
+  margin-bottom: 32px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: unset;
+}
+
+.veja-produtos .box-img div {
+  display: none !important;
+}
+
+.veja-produtos .box-img.ducha {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 450px;
+  background-position: left;
+}
+
+.veja-produtos .box-img.ducha h2 {
+  font-size: 60pt;
+  line-height: 120%;
+  padding-bottom: 16px;
+}
+
+.veja-produtos .box-img.ducha .text {
+  width: 43%;
+}
+
+.veja-produtos .box-img.ducha span {
+  font-size: 32pt;
+}
+
+.veja-produtos .box-img .text {
+  transition: 0.5s;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0 20px;
+  text-align: center;
+  position: absolute;
+  height: 100%;
+}
+
+.veja-produtos .box-img.min-height {
+  min-height: 290px;
+}
+
+.veja-produtos .box-img h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 25pt;
+  line-height: 35pt;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.veja-produtos .box-img span {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16pt;
+  line-height: 20pt;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.veja-produtos .box-img h2 span {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.veja-produtos .box-img:hover .text {
+  transition: 0.5s;
+  width: 100%;
+}
+
+.veja-produtos .box-img .text h2, .veja-produtos .box-img .text a {
+  color: #fff;
+}
+
+.veja-produtos .maisProdutos {
+  margin: 0 20px;
+}
+
+.veja-produtos .maisProdutos p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #004750;
+}
+
+.btn-verMais {
+  background: #f1ede9;
+  padding: 10px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 35pt;
+  color: #004750 !important;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.section-atributos {
+  background-color: #f1ede9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 111px;
+}
+
+.section-atributos .boxItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-atributos .boxItem p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  line-height: 26pt;
+  color: #9e4777;
+  margin: 0;
+}
+
+.section-atributos .boxItem strong {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+  line-height: 26pt;
+  color: #9e4777;
+}
+
+.sliderAtributos .slick-slide {
+  height: auto;
+  padding: 0 15px;
+}
+
+.sliderAtributos .slick-prev {
+  left: 22px;
+  z-index: 1;
+}
+
+.sliderAtributos .slick-next {
+  right: 22px;
+  z-index: 1;
+}
+
+.section-deca {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 25px 15px 10px 0;
+}
+
+.section-deca .background {
+  background-color: rgba(241, 237, 233, 0.87);
+}
+
+.section-deca div.paddingTexto {
+  padding: 39px 46px 62px 141px;
+}
+
+.section-deca div.paddingFont {
+  padding: 5px 46px 5px 141px;
+}
+
+.section-deca div.paddingFont p {
+  font-family: 'Mulish', sans-serif;
+  font-size: 17pt;
+  font-weight: 300;
+  line-height: 38pt;
+}
+
+.section-deca img.titulo {
+  margin-bottom: 15px;
+}
+
+.section-deca p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 24pt;
+  line-height: 38pt;
+  color: #004750;
+}
+
+.section-deca .img-sm {
+  display: none;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+
+.caminho-pagina#mainMap {
+  display: block;
+}
+
+.caminho-pagina {
+  display: block;
+  font-family: 'Mulish', sans-serif;
+  color: #c4c4c4c4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.box-sm {
+  display: none;
+}
+
+.box-lerMais {
+  border: 1px solid #c4c4c4c4;
+  padding: 20px 10px 25px 10px;
+}
+
+.box-lerMais p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.box-lerMais a {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #004750 !important;
+  cursor: pointer;
+}
+
+.box-lerMais a img {
+  width: 15px;
+}
+
+.veja-produtos .maisProdutos {
+  margin: 0;
+}
+
+.section-sobreCategoria .box {
+  border: 1px solid red;
+  padding: 15px;
+}
+
+.sliderCatalogo {
+  margin: 0 auto;
+  width: 76%;
+  position: relative;
+}
+
+.sliderCatalogo .slick-prev {
+  left: 15px;
+  z-index: 1;
+}
+
+.sliderCatalogo .slick-next {
+  right: 15px;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  display: none;
+}
+
+.sliderMarca a.boxItem {
+  background: #f1ede9;
+  display: block;
+  border-radius: 15px;
+  margin: 0 8px;
+}
+
+.sliderMarca .slick-prev {
+  left: 20px;
+  z-index: 1;
+  top: 25px;
+}
+
+.sliderMarca .slick-next {
+  right: 20px;
+  z-index: 1;
+  top: 25px;
+}
+
+.sliderMarca {
+  display: block;
+}
+
+.section-marca {
+  display: none;
+}
+
+.section-blog .box {
+  margin-bottom: 25px;
+  display: block;
+  background: none;
+}
+
+.section-blog .box .img {
+  height: 310px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-blog .box p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24pt;
+  color: #004750;
+  margin: 32px 0 0 0;
+}
+
+.sectionCategoria-header {
+  background: #67cfe3;
+}
+
+.maisProdutos {
+  transition: all 0.5s ease;
+}
+
+.box-produtos {
+  transition: all 0.5s ease;
+}
+
+.box-produtos:hover .maisProdutos {
+  opacity: 0.5;
+}
+
+.box-produtos:hover .maisProdutos:hover {
+  opacity: 1;
+}
+
+.container-long {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slidePrincipal .slick-dots li {
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 15px;
+  transition: 0.5s;
+  border: 2px solid #afafaf;
+}
+
+.slidePrincipal .slick-dots li.slick-active {
+  background: #afafaf !important;
+  transition: 0.5s;
+  border: 2px solid #afafaf;
+}
+
+.slidePrincipal .slick-dots li button {
+  display: none !important;
+}
+
+.background-escolha {
+  background-color: #f1ede9;
+}
+
+.fundoPadrao {
+  background-color: #f1ede9;
+}
+
+.sliderEscolhaLinha button.slick-prev.slick-arrow {
+  z-index: 1;
+}
+
+.sliderEscolhaLinha button.slick-next.slick-arrow {
+  z-index: 1;
+}
+
+.font-header {
+  font-family: "Peggs";
+}
+
+.porFormato .maisProdutos p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+  line-height: 24pt;
+  color: #004750;
+}
+
+.section-bannerMapProdutos .box {
+  cursor: pointer;
+}
+
+.section-bannerMapProdutos .box span {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 42pt;
+  line-height: 24pt;
+  color: #FFF;
+  background: rgb(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 57px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding: 33px 0;
+}
+
+.section-bannerMapProdutos .box.top span {
+  bottom: auto;
+  top: 48px;
+}
+
+.min-height-auto {
+  min-height: auto;
+}
+
+h2.subTituloSection.mt-8 {
+  margin-top: 3em !important;
+}
+
+.veja-produtos .box-img.torneira h2 {
+  font-size: 24pt;
+}
+
+.veja-produtos .box-img.torneira h2 {
+  line-height: 25pt;
+}
+
+.veja-produtos .box-img.torneira span {
+  padding-top: 18pt;
+}
+
+.parent-marca {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.btn-vermais-sm {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 10pt;
+  color: #004750;
+  width: 100%;
+  text-align: center;
+}
+
+.parent-marca .item {
+  margin: 5px;
+}
+
+.mostrarmais p {
+  margin: 0;
+}
+
+.mostrarmais label {
+  display: block;
+}
+
+.mostrarmais input {
+  display: none;
+  position: absolute;
+  left: -1000px;
+}
+
+.mostrarmais input:checked+p {
+  -webkit-line-clamp: unset;
+}
+
+.mostrarmais input:checked+p+label {
+  display: none;
+}
+
+.btn-verMais .lerMenos {
+  display: block;
+}
+
+.btn-verMais.collapsed .lerMenos {
+  display: none;
+}
+
+.btn-verMais .lerMais {
+  display: none;
+}
+
+.btn-verMais.collapsed .lerMais {
+  display: block;
+}
+
+.btn-verMais.collapsed img {
+  -moz-transform: scale(1);
+  -o-transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.btn-verMais img {
+  transition: 0.5s all;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+.box-lerMais-completo {
+  border: 1px solid #d9e8fd;
+  padding: 5px 10px 15px 10px;
+}
+
+.box-lerMais-completo p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 20px;
+  color: #004750;
+  margin-bottom: 15px;
+}
+
+.box-lerMais-completo p:last-child {
+  margin-bottom: 0;
+}
+
+.btn-lerMais-completo {
+  background-color: transparent;
+  padding: 10px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 35pt;
+  color: #004750 !important;
+  margin-bottom: 0;
+}
+
+/*Media*/
+
+@media (min-width: 576px) {
+  .container-long {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-long {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-long {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .veja-produtos .box-img.min-height {
+    min-height: 214px;
+  }
+  .veja-produtos .box-img.ducha h2 {
+    font-size: 47pt;
+  }
+  .veja-produtos .box-img.ducha span {
+    font-size: 28pt;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 23pt;
+  }
+  .veja-produtos .box-img.torneira h2 {
+    font-size: 20pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 14pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 15pt;
+  }
+  .section-bannerMapProdutos .box.top span {
+    top: 30px;
+  }
+}
+
+@media (max-width: 1372px) {}
+
+@media (max-width: 1200px) {
+  .section-blog .box .img {
+    height: 180px;
+  }
+  .veja-produtos .box-img.min-height {
+    min-height: 172px;
+  }
+  .section-marca {
+    display: flex;
+  }
+  .sliderMarca {
+    display: none;
+  }
+  .section-header img {
+    width: 650px;
+  }
+  .box-sm {
+    display: block !important;
+  }
+  .section-bannerMapProdutos {
+    margin-top: 40px;
+  }
+  .veja-produtos .box-img.ducha h2 {
+    font-size: 43pt;
+  }
+  .veja-produtos .box-img.ducha {
+    min-height: 350px;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 24pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 14pt;
+  }
+  .veja-produtos .box-img.torneira h2 {
+    font-size: 20pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 14pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 14pt;
+  }
+  .veja-produtos .box-img .text {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1188px) {
+  .subTituloSection {
+    font-size: 45pt;
+  }
+}
+
+@media(max-width: 1030px) {
+  .sliderCatalogo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .veja-produtos .box-img.ducha h2 {
+    font-size: 40pt;
+  }
+  .veja-produtos .box-img.ducha span {
+    font-size: 26pt;
+  }
+  .section-header img {
+    max-width: 100%;
+    height: auto;
+  }
+  .btn-verMais {
+    margin-bottom: 20px;
+  }
+}
+
+.list-blog.sm {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .list-blog.sm {
+    display: block;
+  }
+  .veja-produtos .box-img.min-height {
+    min-height: 300px;
+  }
+  .section-blog .box p {
+    font-size: 17pt;
+    line-height: 20pt;
+    margin: 20px 0 0 0;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 25pt;
+    padding: 15px 0;
+    bottom: 20px;
+  }
+  .sliderEscolhaLinha button.slick-prev.slick-arrow, .sliderEscolhaLinha button.slick-next.slick-arrow {
+    z-index: 1;
+    top: 40px;
+    width: 3%;
+  }
+  .sliderEscolhaLinha.slick-initialized.slick-slider {
+    padding-top: 20px;
+  }
+  .container-fluid.background-escolha {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .background-escolha {
+    background-color: transparent;
+  }
+  .background-escolha .veja-produtos .col-lg-2.col-sm-4 {
+    background: #f1ede9;
+    margin-bottom: 25px;
+  }
+  .slick-prev, .slick-next {
+    width: 35px;
+    height: 35px;
+  }
+  .slick-prev {
+    left: 30px !important;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 30px !important;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+  }
+  .veja-produtos .box-img {
+    min-height: 255px;
+  }
+  .section-deca {
+    background: none !important;
+    padding: 0 15px;
+  }
+  .section-deca .background {
+    background: none;
+  }
+  .section-deca .background.paddingFont {
+    display: none;
+  }
+  .section-deca .img-sm {
+    display: block !important;
+  }
+  .section-deca div.paddingTexto {
+    padding: 0 25px;
+  }
+  .veja-produtos .box-img.torneira h2 {
+    font-size: 35pt;
+    line-height: 32pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 20pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 22pt;
+  }
+  .container-long {
+    width: 100%;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 908px) {
+  .veja-produtos .box-img.ducha h2 {
+    font-size: 35pt;
+  }
+  .veja-produtos .box-img.ducha span {
+    font-size: 22pt;
+  }
+  .veja-produtos .box-img.ducha {
+    min-height: 325px;
+  }
+}
+
+@media (max-width: 900px) {
+  .subTituloSection {
+    font-size: 37pt;
+  }
+  .section-bannerMapProdutos .box.top span {
+    top: 23px;
+  }
+}
+
+@media (max-width: 850px) {
+  .subTituloSection {
+    font-size: 35pt;
+  }
+}
+
+.hidden-sm {
+  display: block;
+}
+
+@media(max-width: 767px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-lerMais-completo p {
+    font-size: 17px;
+  }
+  .mostrarmais p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin: 0;
+  }
+  .section-atributos {
+    padding: 20px 0;
+  }
+  .section-blog .box .img {
+    height: 160px;
+  }
+  .section-blog .box p {
+    font-size: 15pt;
+    line-height: 18pt;
+  }
+  .sliderAtributos .slick-arrow img {
+    width: 70%;
+  }
+  .section-atributos {
+    margin-bottom: 20px;
+  }
+  .container-long {
+    padding: 0;
+  }
+  .veja-produtos .box-img.ducha h2 {
+    font-size: 30pt;
+  }
+  .veja-produtos .box-img.ducha span {
+    font-size: 20pt;
+  }
+  .veja-produtos .box-img.ducha {
+    min-height: 265px;
+  }
+  .subTituloSection {
+    font-size: 35pt;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 28pt;
+    padding: 15px 0;
+    bottom: 15px;
+  }
+  .section-bannerMapProdutos {
+    margin-bottom: 45px;
+  }
+  h2.subTituloSection {
+    margin-top: 30px !important;
+  }
+  .veja-produtos .box-img .text {
+    width: 50%;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 30pt;
+    line-height: 30pt;
+  }
+  .veja-produtos .box-img h2 span {
+    font-size: 18pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 20pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 18pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 20pt;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 23pt;
+  }
+}
+
+@media (max-width: 700px) {
+  .subTituloSection {
+    font-size: 30pt;
+  }
+}
+
+@media (max-width: 690px) {
+  h2.subTituloSection {
+    font-size: 27pt;
+    margin-bottom: 20px;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 23pt;
+    line-height: 24pt;
+  }
+  .veja-produtos .box-img h2 span {
+    font-size: 16pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 18pt;
+  }
+  .veja-produtos .box-img.torneira h2 {
+    font-size: 23pt;
+    line-height: 24pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 16pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 18pt;
+  }
+  .veja-produtos .box-img.min-height {
+    min-height: 220px;
+  }
+  .section-bannerMapProdutos .box.top span {
+    top: 18px;
+  }
+}
+
+@media (max-width: 670px) {
+  .veja-produtos .box-img .text {
+    width: 50%;
+  }
+  .veja-produtos .box-img.ducha .text {
+    width: 50%;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 20pt;
+  }
+  .veja-produtos .box-img {
+    min-height: 200px;
+  }
+}
+
+@media(max-width: 600px) {
+  .section-blog .box p {
+    font-size: 13pt;
+    line-height: 16pt;
+  }
+  h2.subTituloSection {
+    font-size: 24pt;
+    margin-bottom: 20px;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 17pt;
+  }
+}
+
+@media (max-width: 540px) {
+  .veja-produtos .maisProdutos p {
+    font-size: 16pt;
+    line-height: 24pt;
+  }
+  .slick-prev.slick-arrow {
+    left: 5px !important;
+  }
+  .slick-next.slick-arrow {
+    right: 5px !important;
+  }
+  .section-blog .box p {
+    font-size: 12pt;
+    margin-top: 15px;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 22pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 17pt;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 18pt;
+    line-height: 22pt;
+  }
+  .veja-produtos .box-img h2 span {
+    font-size: 14pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 16pt;
+    padding-top: 8pt;
+  }
+  .veja-produtos .box-img.ducha h2 {
+    font-size: 22pt;
+  }
+  .veja-produtos .box-img.ducha span {
+    font-size: 17pt;
+  }
+  .veja-produtos .box-img.torneira h2 {
+    font-size: 18pt;
+    line-height: 22pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 14pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 16pt;
+    padding-top: 8pt;
+  }
+}
+
+@media (max-width: 525px) {
+  h2.subTituloSection {
+    font-size: 22pt;
+  }
+  .section-blog .box .img {
+    height: 150px;
+  }
+  .veja-produtos .box-img {
+    margin-bottom: 15px;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 19pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 14pt;
+  }
+  .veja-produtos .box-img.ducha h2 {
+    font-size: 19pt;
+  }
+  .veja-produtos .box-img.ducha span {
+    font-size: 14pt;
+  }
+  .tituloSection {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 463px) {
+  h2.subTituloSection {
+    font-size: 20pt;
+  }
+}
+
+@media (max-width: 425px) {
+  .section-blog .row {
+    padding: 0 15px;
+  }
+  .list-blog {
+    padding: 0 7px;
+  }
+  .section-blog .box .img {
+    height: 115px;
+  }
+  .section-blog .box p {
+    font-size: 13px;
+  }
+  .tituloSection {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 20pt;
+    padding: 10px 0;
+    bottom: 15px;
+  }
+  .veja-produtos .box-img .text {
+    padding: 0 10px;
+  }
+  .veja-produtos .box-img.ducha .text {
+    padding: 0 10px;
+  }
+  .subTituloSection {
+    font-size: 20pt;
+    margin-top: 0px !important;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 14pt;
+    line-height: 20pt;
+  }
+  .veja-produtos .box-img h2 span {
+    font-size: 12pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 13pt;
+  }
+  .veja-produtos .box-img.torneira h2 {
+    font-size: 14pt;
+    line-height: 20pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 12pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 13pt;
+  }
+  .veja-produtos .box-img.min-height {
+    min-height: 144px;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 15pt;
+    padding: 5px 0;
+  }
+  .veja-produtos .box-img {
+    min-height: 135px;
+    height: 100px;
+  }
+  .section-bannerMapProdutos .box.top span {
+    top: 10px;
+  }
+  .section-deca .img-sm {
+    height: 200px;
+  }
+  .section-deca p {
+    font-size: 19pt;
+    line-height: 23pt;
+  }
+  .veja-produtos .box-produtos .maisProdutos p {
+    font-size: 11pt;
+  }
+}
+
+@media (max-width: 375px) {
+  .section-blog .box .img {
+    height: 80px;
+  }
+  .btn-vermais-sm img {
+    width: 5%;
+  }
+  h2.subTituloSection {
+    font-size: 16pt;
+  }
+  .veja-produtos .box-img {
+    min-height: 125px;
+  }
+  .veja-produtos .box-img.min-height {
+    min-height: 124px;
+  }
+  .veja-produtos .box-img .text {
+    padding: 0;
+  }
+  .veja-produtos .box-img h2 {
+    font-size: 12pt;
+  }
+  .veja-produtos .box-img h2 span {
+    font-size: 10pt;
+  }
+  .veja-produtos .box-img span {
+    font-size: 11pt;
+  }
+  .veja-produtos .box-img.torneira .text {
+    padding: 0;
+  }
+  .veja-produtos .box-img.torneira h2 {
+    font-size: 12pt;
+  }
+  .veja-produtos .box-img.torneira h2 span {
+    font-size: 10pt;
+  }
+  .veja-produtos .box-img.torneira span {
+    font-size: 11pt;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 14pt;
+    padding: 3px 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .section-blog .box .img {
+    height: 125px;
+  }
+  .section-blog .box p {
+    font-size: 11px;
+    line-height: 120%;
+  }
+  .veja-produtos .maisProdutos p {
+    font-size: 16pt;
+  }
+  .section-bannerMapProdutos .box span {
+    font-size: 11pt;
+    padding: 0px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-long {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section-bannerMapProdutos .box.top span {
+    top: 38px;
+  }
+}
